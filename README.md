@@ -9,3 +9,7 @@ HelloWorld of Hibernate with Native API
 HelloWorld of Spring
  - IrO: https://sites.google.com/site/iridiumsite/it/java/java-web-ee/spring/hello-world
  - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/hellospring
+ 
+HelloWorld of Spring MVC, 这个项目目前无法部署的 tomcat 8 中，原因不明，但 tomcat 7 是可以的。
+ - IrO: https://sites.google.com/site/iridiumsite/it/java/java-web-ee/spring-mvc/helloworld-of-spring-mvc
+ - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/hellospringmvc
