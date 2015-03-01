@@ -18,4 +18,7 @@ Spring MVC 前后端传值 demo
  - IrO: https://sites.google.com/site/iridiumsite/it/java/java-web-ee/spring-mvc/trans-value
  - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/hellospringmvc_trans_value
  
+一些简单的算法代码
+ - IrO: https://sites.google.com/site/iridiumsite/it/algorithms
+ - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/helloalgorithm  
  
