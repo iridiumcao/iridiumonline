@@ -22,3 +22,6 @@ Spring MVC 前后端传值 demo
  - IrO: https://sites.google.com/site/iridiumsite/it/algorithms
  - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/helloalgorithm  
  
+设计模式相关的示例代码
+ - IrO: https://sites.google.com/site/iridiumsite/it/software-engineering/design-pattern
+ - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/hellodesignpattern  
