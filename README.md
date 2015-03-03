@@ -25,3 +25,8 @@ Spring MVC 前后端传值 demo
 设计模式相关的示例代码
  - IrO: https://sites.google.com/site/iridiumsite/it/software-engineering/design-pattern
  - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/hellodesignpattern  
+ 
+HelloWorld of Ajax
+ - IrO: https://sites.google.com/site/iridiumsite/it/web-front-dev/ajax/helloworld
+ - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/helloajax   
+ 

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>verify email using "get" method</title>
+<script type="text/javascript">
+	var xmlHttp;
+	
+	function createXMLHttpRequest() {
+		if (window.ActiveXObject) {
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+		} else if (window.XMLHttpRequest) {
+			xmlHttp = new XMLHttpRequest();
+		}
+	}
+	
+	function submit() {
+		createXMLHttpRequest();
+		//2. 注册回调方法
+		xmlHttp.onreadystatechange = callback;
+		// 3. 设置和服务器交互的方法
+		var email = document.getElementById("email").value;
+		xmlHttp.open("get", "EmailServlet?email="+email, true);
+		xmlHttp.send(null);
+	}
+	
+	function callback() {
+		//alert(xmlHttp.readyState + ", " + xmlHttp.status);
+		//5. 判断和服务器的交互是否完成，判断服务器是否正确返回数据
+		if (xmlHttp.readyState == 4) {
+			// 表示和服务器端交互已经完成
+			if (xmlHttp.status == 200) {
+				// 正确返回了数据
+				var message = xmlHttp.responseText;
+				// 将返回数据更新到 div 里
+				var div = document.getElementById("message");
+				div.innerHTML = message;
+			}
+		}
+	}
+</script>
+</head>
+<body>
+Email: <input type="text" id="email"/><input type="submit" onclick="submit()" value="Check email"/>
+<br/>
+<div id="message"></div>
+</body>
+</html>
