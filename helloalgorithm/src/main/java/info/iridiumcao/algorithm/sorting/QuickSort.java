@@ -13,7 +13,7 @@ public class QuickSort {
 
 	public static void main(String[] args) {
 		System.out
-				.println("Please input integers splited by comma (do not input blank): ");
+				.println("Please input integers split by comma (do not input blank): ");
 		scanner = new Scanner(System.in);
 		String sc = scanner.next();
 		String[] ints = sc.split(",");
