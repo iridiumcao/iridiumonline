@@ -34,3 +34,6 @@ HelloWorld of Ajax
  - IridiumOnline.info: https://sites.google.com/site/iridiumsite/it/web-front-dev/ajax/helloworld
  - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/helloajax   
  
+JDBC 示例：向 mysql 插入二进制数据 
+ - IridiumOnline.info: https://sites.google.com/site/iridiumsite/it/database/MySQL/instert-bin-file
+ - Code: http://git.oschina.net/iridiumcao/iridiumonline/tree/master/dbdemo
