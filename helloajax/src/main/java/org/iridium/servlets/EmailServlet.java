@@ -19,13 +19,13 @@ public class EmailServlet extends HttpServlet {
      * Default constructor.
      */
     public EmailServlet() {
-        // TODO Auto-generated constructor stub
     }
 
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
      * response)
      */
+    @Override
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request, response);
@@ -35,6 +35,7 @@ public class EmailServlet extends HttpServlet {
      * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
      * response)
      */
+    @Override
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
