@@ -1,6 +1,6 @@
 package info.iridiumcao.algorithm.others;
 
-public class HelloAlgrithm001 {
+public class HelloAlgorithm001 {
 
 	public static void main(String[] args) {
 		int[] a = { 3, 7, 8, 9, 10 };
